@@ -4,7 +4,7 @@ import Authortable from '../components/Authortable';
 import { AuthorResponse } from '../domain/Author.entity'; // Import the AuthorResponse type
 
 const Author = () => {
-  const [editAuthor, setEditAuthor] = useState<AuthorResponse | null>(null); // Explicitly type the state
+  const [editAuthor, setEditAuthor] = useState<AuthorResponse | null>(null);  
 
   return (
     <div>
